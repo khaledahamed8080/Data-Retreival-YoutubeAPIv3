@@ -9,7 +9,7 @@ app = Flask(__name__)
 # YouTube API config
 api_service_name = "youtube"
 api_version = "v3"
-DEVELOPER_KEY = "AIzaSyDZnpOJ74ug59XBUvjgg_xcpWDL-6-ZjjA"
+DEVELOPER_KEY = "YOUR_API_KEY"
 
 youtube = googleapiclient.discovery.build(
     api_service_name,
